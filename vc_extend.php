@@ -40,7 +40,7 @@ function vc_extend_js_css() {
   wp_register_style( 'vc_extend_style', plugins_url('vc_extend.css', __FILE__) );
   wp_enqueue_style( 'vc_extend_style' );
   
-  // If you need any javascript files on front ent, here is how you can load them.
+  // If you need any javascript files on front end, here is how you can load them.
   //wp_enqueue_script( 'vc_extend_js', plugins_url('vc_extend.js', __FILE__), array('jquery') );
 }
 
@@ -56,7 +56,7 @@ Lets register our shortcode with bartag base and few params (attributes):
   http://kb.wpbakery.com/index.php?title=Visual_Composer_tutorial
 */
 add_shortcode( 'bartag', 'bartag_func' );
-function bartag_func( $atts, $content = null ) { // New function parameter $content is added!
+function bartag_func( $atts, $content = null ) {
   extract( shortcode_atts( array(
     'foo' => 'something',
     'color' => '#FFF'
@@ -68,7 +68,7 @@ function bartag_func( $atts, $content = null ) { // New function parameter $cont
 }
 
 /*
-Lets call wpb_map function to "register" our custom shortcode withing Visual Composer interface
+Lets call wpb_map function to "register" our custom shortcode within Visual Composer interface.
 */
 wpb_map( array(
   "name" => __("Bar tag test", 'vc_extend'),

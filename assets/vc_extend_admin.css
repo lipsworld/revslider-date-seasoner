@@ -8,7 +8,12 @@ http://kb.wpbakery.com/index.php?title=VC_Shortcode_Icon_Class
 
 
 /* Add icon for the "Add element" elements selection popup */
-.wpb-layout-element-button .icon-wpb-vc_extend { background-image: url(assets/asterisk_yellow.png); }
+.wpb-layout-element-button .icon-wpb-vc_extend { background-image: url(../assets/asterisk_yellow.png); }
 
 /* Add background for our shortcode in the Visual Composer backend editor */
-.wpb_bartag .wpb_element_wrapper { background-image: url(assets/asterisk_yellow.png); }
+.wpb_bartag .wpb_element_wrapper { background-image: url(../assets/asterisk_yellow.png); }
+
+/* Example how you can change look of your element in VC backend editor */
+.wpb_bartag > .wpb_element_wrapper {
+	background-color: #93DDFB;
+}

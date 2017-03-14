@@ -1,0 +1,22 @@
+# Translation of RevSlider Date Seasoner
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sv\n"
+
+#: revslider_date_seasoner.php:62
+msgid "Revolution Slider Date Seasoner"
+msgstr "MEEEN"
+
+#: revslider_date_seasoner.php:63
+msgid "Add slider to swith based on different seasons."
+msgstr "Lägg till ett bildspel att byta mellan olika årstider."
